@@ -1,0 +1,64 @@
+************************************************************************************************************************
+*                                               Version Control System (VCS)                                           *
+************************************************************************************************************************
+Version Control System (VCS) is a software that helps Software developers to work together and maintains the complete history of their work.
+
+Following are goals of VCS:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Allow developers to work simultaneously.
+2. Do not overwrite each other’s changes.
+3. Maintain history of every version of everything.
+
+Following are types of VCS:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1. Centralized version control system (CVCS).
+2. Distributed/Decentralized version control system (DVCS).
+
+
+
+************************************************************************************************************************
+*                                               Customize Git environment                                              *
+************************************************************************************************************************
+
+Setting username
+^^^^^^^^^^^^^^^^
+git config --global user.name "Touhid Mia"
+
+Setting email
+^^^^^^^^^^^^^^^^
+git config --global user.email "hmtmcse@hotmail.com"
+
+
+Setting color
+^^^^^^^^^^^^^^^^
+git config --global color.ui true
+git config --global color.status auto
+git config --global color.branch auto
+
+
+Setting default editor
+^^^^^^^^^^^^^^^^^^^^^^^
+git config --global core.editor vim
+
+
+Setting merge tool
+^^^^^^^^^^^^^^^^^^^
+git config --global merge.tool vimdiff
+
+Show setting list
+^^^^^^^^^^^^^^^^
+git config --list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
