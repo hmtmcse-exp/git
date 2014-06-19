@@ -50,6 +50,8 @@ git stash pop           :   Add again our hidden code in working copy
 
 git rm fileName         :   Remove file from git repository
 
+git mv src dst          :   Rename file source to destination name
+
 
 reset
 
