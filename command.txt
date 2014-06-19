@@ -33,12 +33,21 @@ Example                 :   git show bf27ddb98278c96c6d4e2bb59afad9e2f7974829
 git diff                :   Show how many changes are occur in repository
 ------------------------------------------------------------------------------------------------------------------------
 
-git push                :   Push Changes in repository
-git push --all          :   Push Changes in repository
-clone
-pull
+git push                :   Push single Changes in repository
+git push --all          :   Push all Changes in repository
 
-branch
+git pull                :   Pull Others developer changes from repository and update working copy
+
+
+git clone               :   Download remote or repository for working copy
+
+git branch              :   Show how many branches are available in that repository
+
+git stash               :   When we not want to commit or push our half done code then we can save it by stash. After
+                            Solve our problem then we also can back our previous half done code
+git stash list          :   Show list of stash are saved
+git stash pop           :   Add again our hidden code in working copy
+
 reset
 commit
 fetch
@@ -48,4 +57,3 @@ checkout
 grep
 init
 rm
-show
