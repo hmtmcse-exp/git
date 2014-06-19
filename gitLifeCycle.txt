@@ -1,0 +1,12 @@
+************************************************************************************************************************
+*                                        GIT LIFE CYCLE
+************************************************************************************************************************
+1. Clone Git repository as a working copy.
+2. Modify working copy by adding / editing files.
+3. If necessary, then update our working copy by pull for taking other developers' changes.
+4. Review changes before commit.
+5. Commit our changes, If everything was fine, then push changes to the repository.
+
+
+
+

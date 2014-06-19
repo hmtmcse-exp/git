@@ -4,16 +4,37 @@
 
 
 ------------------------------------------------------------------------------------------------------------------------
-git status          :   Show how many file are changed in working repository.
-git status -s       :   When we add -s switch then it show file status in left side
+git status              :   Show how many file are changed in working repository.
+git status -s           :   When we add -s switch then it show file status in left side
 ------------------------------------------------------------------------------------------------------------------------
 
-git add fileName    :   Add specific file in git
-git add --all       :   Add all files in git
+------------------------------------------------------------------------------------------------------------------------
+git add fileName        :   Add specific file in git
+git add --all           :   Add all files in git
+------------------------------------------------------------------------------------------------------------------------
 
-git commit
+------------------------------------------------------------------------------------------------------------------------
+git commit              :   Commit Changes in git, when we use this command then one vim prompt open for write comments
+git commit -m "comments":   Commit Changes in git, the -m switch and "" area provide at a time commit comments no need
+                            vim editor to edit comments
+------------------------------------------------------------------------------------------------------------------------
 
-push
+------------------------------------------------------------------------------------------------------------------------
+git log                 :   Show all commit log. Here we get 1.commit hash, 2.That commit Author, 3.Date, 4.comments
+git log -2              :   Show last 2 commit log. When we have need see last 2 or 3 log the we using this -2 or -3
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+git show commitHash     :   Show that commit changes
+Example                 :   git show bf27ddb98278c96c6d4e2bb59afad9e2f7974829
+------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------
+git diff                :   Show how many changes are occur in repository
+------------------------------------------------------------------------------------------------------------------------
+
+git push                :   Push Changes in repository
+git push --all          :   Push Changes in repository
 clone
 pull
 
@@ -22,8 +43,8 @@ reset
 commit
 fetch
 checkout
-diff
-log
+
+
 grep
 init
 rm
