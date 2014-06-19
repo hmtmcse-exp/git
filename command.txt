@@ -1,0 +1,22 @@
+git status          :   Show how many file are changed in working repository.
+
+
+
+
+
+add
+push
+clone
+pull
+
+branch
+reset
+commit
+fetch
+checkout
+diff
+log
+grep
+init
+rm
+show
