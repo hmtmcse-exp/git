@@ -48,12 +48,16 @@ git stash               :   When we not want to commit or push our half done cod
 git stash list          :   Show list of stash are saved
 git stash pop           :   Add again our hidden code in working copy
 
+git rm fileName         :   Remove file from git repository
+
+
 reset
-commit
+
+
+
 fetch
 checkout
 
 
 grep
 init
-rm
