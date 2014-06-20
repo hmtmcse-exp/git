@@ -72,11 +72,12 @@ git checkout branchName    :   Switch branch
 git checkout -b branchName :   Create new branch and switch branch
 ------------------------------------------------------------------------------------------------------------------------
 
+------------------------------------------------------------------------------------------------------------------------
 git branch                 :   Shows branches and indicate * by selected branch
 git branch branchName      :   For create a new branch
 git branch -D branchName   :   Delete Branch
 git branch -m old new      :   Rename Branch old name to new name
-
+------------------------------------------------------------------------------------------------------------------------
 
 
 
