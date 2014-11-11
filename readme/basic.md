@@ -3,9 +3,9 @@
 git init
 ```
 
-##### CMD :-1 
+##### CMD :-2 git-cherry-pick - Apply the changes introduced by some existing commits 
 ```bash
- git cherry-pick
+ git cherry-pick commitHash
 ```
 
 ##### CMD :-1 
