@@ -5,7 +5,7 @@ git init
 
 ##### CMD :-1 
 ```bash
-
+ git cherry-pick
 ```
 
 ##### CMD :-1 
