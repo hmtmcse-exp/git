@@ -10,7 +10,12 @@ git init
 
 ##### CMD :-1 
 ```bash
-
+$ git fetch
+$ git diff master…origin/master
+that’ll show changes of upstream
+$ git fetch origin
+$ git rebase origin/master
+$ git push prigin master
 ```
 
 
